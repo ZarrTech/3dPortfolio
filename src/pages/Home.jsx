@@ -44,7 +44,9 @@ function Home() {
 
   return (
     <section className="relative w-full h-screen">
-      <div className=" absolute top-28 right-0 left-0 z-10 flex items-center justify-center">{currentStage && <HomeInfo currentStage={ currentStage} />}</div>
+      <div className=" absolute top-28 right-0 left-0 z-10 flex items-center justify-center">
+        {currentStage && <HomeInfo currentStage={currentStage} />}
+      </div>
       <Canvas
         className={`w-full h-screen bg-transparent ${
           isRotating ? "cursor-grabbing" : "cursor-grab"
@@ -72,7 +74,7 @@ function Home() {
           />
           <Plane
             isRotating={isRotating}
-            rotation={[0,20,0]}
+            rotation={[0, 20, 0]}
             planePositionposition={planePosition}
             planeScalescale={planeScale}
           />
