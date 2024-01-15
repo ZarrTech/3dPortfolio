@@ -27,7 +27,7 @@ const recentContent = {
   3: (
     <InfoBox
       text="Care to see my Amazing projects?"
-      link="/project"
+      link="/projects"
       btnText=" my portfolio"
     />
   ),
