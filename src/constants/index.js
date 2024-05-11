@@ -186,10 +186,10 @@ export const projects = [
   {
     iconUrl: pricewise,
     theme: "btn-back-red",
-    name: "client real estate website",
+    name: "Book Store",
     description:
-      "Developed a web application for a real estate agent using Three.js [ongoing].",
-    link: "https://github.com/ZarrTech/UpdatedMax",
+      "built a book store using Mern stack.",
+    link: "https://book-store-mern-frontend-pearl.vercel.app/",
   },
   {
     iconUrl: threads,
